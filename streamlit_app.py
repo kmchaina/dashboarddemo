@@ -36,8 +36,8 @@ type = pd.DataFrame(set1['Study_type'].value_counts())
 col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader('This is a laboratory report of MRDT Negative Samples Analysis Summary')
-col2.metric("Wind", "9 mph", "-8%")
-col3.metric("Humidity", "86%", "4%")
+col2.metric("", "", "")
+col3.metric("", "", "")
 
 
 
